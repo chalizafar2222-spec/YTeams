@@ -81,8 +81,11 @@ const TestimonialSection = () => {
                     What our <br /> customers think
                 </h2>
                 <p className="text-gray-600 mt-6 text-lg leading-relaxed max-w-md">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus commodi sint, similique cupiditate possimus suscipit delectus illum eos iure magnam!
+                    Hear directly from our clients about the impact we’ve created together.
+                    From innovative solutions to reliable delivery, we take pride in building
+                    long-term partnerships that drive success.
                 </p>
+
 
                 {/* timeline indicator */}
                 <div className="flex gap-2 mt-10">

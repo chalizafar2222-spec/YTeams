@@ -114,12 +114,12 @@ const GetStartedSection = () => {
               </p>
               <div className="grid grid-cols-2 gap-2">
                 <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Web Development" required />
+                  <input type="checkbox" name="Services" value="Web Development"/>
                   Web Development
                 </label>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="Services" value="Mobile Apps" />
-                  Mobile Apps
+                  App Development
                 </label>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="Services" value="UI/UX Design" />
@@ -127,7 +127,19 @@ const GetStartedSection = () => {
                 </label>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" name="Services" value="Cloud Solutions" />
-                  Cloud Solutions
+                  D365 ERP
+                </label>
+                <label className="flex items-center gap-2">
+                  <input type="checkbox" name="Services" value="Cloud Solutions" />
+                  D365 CRM
+                </label>
+                <label className="flex items-center gap-2">
+                  <input type="checkbox" name="Services" value="Cloud Solutions" />
+                  Power App
+                </label>
+                <label className="flex items-center gap-2">
+                  <input type="checkbox" name="Services" value="Cloud Solutions" />
+                  Metaverse
                 </label>
               </div>
             </div>
@@ -161,7 +173,7 @@ const GetStartedSection = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-md w-full font-semibold"
+              className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full w-full font-semibold"
             >
               Submit
             </button>

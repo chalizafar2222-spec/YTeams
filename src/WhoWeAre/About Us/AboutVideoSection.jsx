@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import aboutVideo from "../../Assets/video.MOV"; // replace with your About Us video
+import { Link } from "react-router-dom";
 
 const AboutVideoSection = () => {
   const ref = useRef(null);
@@ -60,9 +61,9 @@ const AboutVideoSection = () => {
               businesses worldwide. With a people-first mindset, we blend creativity, 
               technology, and strategy to deliver meaningful impact.
             </p>
-            <button className="mt-4 sm:mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white rounded-full inline-block text-sm sm:text-base">
-              Discover More
-            </button>
+            <Link to="/our-team" className="mt-4 sm:mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white rounded-full inline-block text-sm sm:text-base">
+              Meet Our Team
+            </Link>
           </motion.div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function InternshipSection() {
   const internships = [
@@ -77,9 +78,9 @@ export default function InternshipSection() {
               <ul className="mb-6 list-disc list-inside text-gray-600">
                 {intern.perks.map((p, j) => <li key={j}>{p}</li>)}
               </ul>
-              <button className="px-5 py-2 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition">
+              <Link to="/internform" className="px-5 py-2 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition">
                 Apply Now
-              </button>
+              </Link>
             </div>
           ))}
         </div>

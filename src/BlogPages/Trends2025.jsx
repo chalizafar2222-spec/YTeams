@@ -1,6 +1,7 @@
 // Trends2025.jsx
 import React from "react";
 import web2 from "../Assets/9-min.jpg"
+import author from "../Assets/IMG_1269.JPG"
 
 const Trends2025 = () => {
     return (
@@ -35,8 +36,8 @@ const Trends2025 = () => {
                         </h2>
                         <div className="flex mt-3">
                             <img
-                                src="https://randomuser.me/api/portraits/men/97.jpg"
-                                className="h-10 w-10 rounded-full mr-2 object-cover"
+                                src={author}
+                                className="h-10 w-10 rounded-full mr-2 object-cover object-top"
                                 alt="Author"
                             />
                             <div>

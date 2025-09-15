@@ -32,6 +32,7 @@ import GetStartedSection3D from "./GetStartedSection3D/GetStartedSection3D";
 import GetInTouch from "./GetInTouchSection3D/GetInTouchSection3D";
 import APIIntegration from "./BlogPages/APIIntegration";
 import GetStartedSection from "./GetStartedSection/GetStartedSection";
+import InternshipForm3D from "./InternshipForm3D/InternshipForm3D";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <Route path="/getintouch" element={<GetInTouch/>} />
         <Route path="/api" element={<APIIntegration/>} />
         <Route path="/getstarted" element={<GetStartedSection/>} />
+        <Route path="/internform" element={<InternshipForm3D/>} />
       </Routes>
       {/* <WhatsAppButton /> */}
       <WhatsAppChatBot />

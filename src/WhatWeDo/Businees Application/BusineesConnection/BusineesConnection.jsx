@@ -4,7 +4,7 @@ import ErpOverview from "../ErpOverview";
 import ErpCard from "../ErpCard";
 import ErpChoose from "../ErpChoose";
 import ErpStack from "../ErpStack";
-import CubeLoader from "../../CubeLoader/CubeLoader"; // 👈 loader
+import CubeLoader from "../../CubeLoader/CubeLoader";
 
 function BusinessConnection() {
   const [loading, setLoading] = useState(true);

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import video from "../Assets/video.MOV";
+import video from "../Assets/vid.mp4";
+import { Link } from "react-router-dom";
 
 const VideoTextSection = () => {
   const ref = useRef(null);
@@ -50,18 +51,21 @@ const VideoTextSection = () => {
             className="w-1/2 min-w-[150px] max-w-[400px]"
           >
             <p className="text-xs sm:text-sm text-teal-500 uppercase tracking-widest">
-              Careers
+              Opportunities
             </p>
             <h2 className="text-lg sm:text-3xl font-bold mt-2 sm:mt-3 leading-snug">
-              Human-first is our foundation.
+              Innovation starts with people.
             </h2>
             <p className="mt-2 sm:mt-4 text-gray-600 text-sm sm:text-base leading-relaxed">
-              Join a culture that celebrates excellence and diversity, globally! This text
-              fades in from the right while the video slides into the left column.
+              Be part of a team that values creativity, collaboration, and growth. 
+              Together, we shape the future with technology and human passion.
             </p>
-            <button className="mt-4 sm:mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white rounded-full inline-block text-sm sm:text-base">
-              Join Us
-            </button>
+            <Link
+              to="/open-position"
+              className="mt-4 sm:mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white rounded-full inline-block text-sm sm:text-base"
+            >
+              Explore Careers
+            </Link>
           </motion.div>
         </div>
       </div>

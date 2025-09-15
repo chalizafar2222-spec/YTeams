@@ -1,15 +1,9 @@
 import React from "react";
-import pakistan from "../../Assets/bell.avif";
-import usa from "../../Assets/bell.avif";
-import uae from "../../Assets/bell.avif";
-import ksa from "../../Assets/bell.avif";
-import uk from "../../Assets/bell.avif";
+import pakistan from "../../Assets/pak.jpg";
+import uk from "../../Assets/uk.jpg";
 
 const countries = [
   { img: pakistan, name: "Pakistan" },
-  { img: usa, name: "United States of America" },
-  { img: uae, name: "United Arab Emirates" },
-  { img: ksa, name: "Kingdom of Saudi Arabia" },
   { img: uk, name: "United Kingdom" },
 ];
 
@@ -33,7 +27,7 @@ const GlobalPresence = () => {
               <img
                 src={country.img}
                 alt={country.name}
-                className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-64 object-center transform transition-transform duration-500 group-hover:scale-110"
               />
             </div>
             <p className="mt-3 text-base font-medium">{country.name}</p>
@@ -48,7 +42,7 @@ const GlobalPresence = () => {
                   128 City Road London EC1V 2NX, United Kingdom
                 </p>
                 <p className="font-semibold mt-1">
-                  Phone: <span className="text-gray-800">+44 746 347 7156</span>
+                  Phone: <span className="text-gray-800">+92 308 1122334 | +61 433 851 870</span>
                 </p>
               </div>
             )}

@@ -1,6 +1,7 @@
 // BlogPage.jsx
 import React from "react";
 import web from "../Assets/web-blog.jpeg";
+import author from "../Assets/IMG_1269.JPG"
 
 const BlogPage = () => {
     return (
@@ -34,8 +35,8 @@ const BlogPage = () => {
                         </h2>
                         <div className="flex mt-3">
                             <img
-                                src="https://randomuser.me/api/portraits/men/97.jpg"
-                                className="h-10 w-10 rounded-full mr-2 object-cover"
+                                src={author}
+                                className="h-10 w-10 rounded-full mr-2 object-top object-cover"
                                 alt="Author"
                             />
                             <div>

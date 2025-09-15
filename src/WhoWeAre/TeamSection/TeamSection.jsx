@@ -184,6 +184,8 @@ import team10 from "../../Assets/aimen.avif";
 import team11 from "../../Assets/noor.avif";
 import team12 from "../../Assets/IMG_1269.JPG";
 import team13 from "../../Assets/AZIB.jpg";
+import team14 from "../../Assets/Gohar.jpeg"
+import team15 from "../../Assets/Male_Avatar.jpg"
 
 
 const teamMembers = [
@@ -310,13 +312,13 @@ const teamMembers = [
   {
     id: 11,
     name: "Gohar Nazir",
-    role: "Legal Adviser",
+    role: "Software Engineer",
     category: "Development",
-    img: team8,
+    img: team14,
     socials: {
       github: "https://github.com/goharnazir",
       twitter: "https://twitter.com/goharnazir",
-      linkedin: "https://linkedin.com/in/goharnazir",
+      linkedin: "https://www.linkedin.com/in/gohar-nazir-420441284",
     },
   },
   {
@@ -336,7 +338,7 @@ const teamMembers = [
     name: "Hamza Farooq",
     role: "QA Engineer",
     category: "Development",
-    img: "", // no image provided
+    img: team15,
     socials: {
       github: "https://github.com/hamzafarooq",
       twitter: "https://twitter.com/hamzafarooq",

@@ -7,7 +7,7 @@ const CalendlySection = () => {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.src = "https://calendly.com/ch-ali-zafar-2222/30min";
     script.async = true;
     document.body.appendChild(script);
   }, []);

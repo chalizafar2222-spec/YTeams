@@ -1,6 +1,7 @@
 import React from "react";
-import leftImg from "../../Assets/futuristic-technology-concept-min.jpg"; // replace with your image path
-import rightImg from "../../Assets/futuristic-technology-concept-min.jpg"; // replace with your image path
+import leftImg from "../../Assets/futuristic-technology-concept-min.jpg";
+import rightImg from "../../Assets/o1.jpg";
+import { Link } from "react-router-dom";
 
 const CodeOfConduct = () => {
   return (
@@ -25,12 +26,12 @@ const CodeOfConduct = () => {
             Our Code of Business Principles
           </h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            Devsinc prioritizes legal and ethical conduct, ensuring honesty,
+            YTeams prioritizes legal and ethical conduct, ensuring honesty,
             fairness, and accountability for all.
           </p>
-          <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-md transition-all duration-300">
-            Access Our Code of Business Principles
-          </button>
+          <Link to="/3dd" className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-md transition-all duration-300">
+            Join Us Now
+          </Link>
         </div>
 
         {/* Right Image */}

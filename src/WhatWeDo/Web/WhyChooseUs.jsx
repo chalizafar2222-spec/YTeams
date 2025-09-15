@@ -120,7 +120,7 @@ export default function WhyChooseUs() {
         {/* Heading */}
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Why Choose <span className="text-teal-500">Devsinc?</span>
+            Why Choose <span className="text-teal-500">YTeams?</span>
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             We deliver excellence with every project, ensuring your business thrives with our expertise and dedication.
