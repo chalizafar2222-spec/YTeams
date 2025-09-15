@@ -15,17 +15,25 @@ const GetStartedSection = () => {
             solutions for your needs.
           </p>
 
-          <form className="space-y-5">
+          <form
+            action="https://api.sheetmonkey.io/form/2MNbbPsEqxzgPANiZaDQp8"
+            method="post"
+            className="space-y-5"
+          >
             {/* First & Last Name */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
+                name="FirstName"
                 placeholder="First Name *"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
               <input
                 type="text"
+                name="LastName"
                 placeholder="Last Name *"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
             </div>
@@ -34,18 +42,27 @@ const GetStartedSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="email"
+                name="Email"
                 placeholder="Email *"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
               <div className="flex gap-2">
-                <select className="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-teal-500">
+                <select
+                  name="CountryCode"
+                  required
+                  className="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                >
+                  <option value="">Code *</option>
                   <option>+1</option>
                   <option>+44</option>
                   <option>+92</option>
                 </select>
                 <input
                   type="tel"
+                  name="Phone"
                   placeholder="Phone Number *"
+                  required
                   className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
               </div>
@@ -55,12 +72,16 @@ const GetStartedSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
+                name="Budget"
                 placeholder="Budget *"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
               <input
                 type="text"
+                name="CompanyName"
                 placeholder="Company Name *"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
             </div>
@@ -68,13 +89,19 @@ const GetStartedSection = () => {
             {/* Company URL */}
             <input
               type="text"
-              placeholder="Company Domain/URL"
+              name="CompanyURL"
+              placeholder="Company Domain/URL *"
+              required
               className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
 
             {/* Region */}
-            <select className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500">
-              <option>Region *</option>
+            <select
+              name="Region"
+              required
+              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
+            >
+              <option value="">Region *</option>
               <option>North America</option>
               <option>Europe</option>
               <option>Asia</option>
@@ -87,19 +114,19 @@ const GetStartedSection = () => {
               </p>
               <div className="grid grid-cols-2 gap-2">
                 <label className="flex items-center gap-2">
-                  <input type="checkbox" />
+                  <input type="checkbox" name="Services" value="Web Development" required />
                   Web Development
                 </label>
                 <label className="flex items-center gap-2">
-                  <input type="checkbox" />
+                  <input type="checkbox" name="Services" value="Mobile Apps" />
                   Mobile Apps
                 </label>
                 <label className="flex items-center gap-2">
-                  <input type="checkbox" />
+                  <input type="checkbox" name="Services" value="UI/UX Design" />
                   UI/UX Design
                 </label>
                 <label className="flex items-center gap-2">
-                  <input type="checkbox" />
+                  <input type="checkbox" name="Services" value="Cloud Solutions" />
                   Cloud Solutions
                 </label>
               </div>
@@ -107,14 +134,20 @@ const GetStartedSection = () => {
 
             {/* Project Details */}
             <textarea
-              placeholder="Project Details"
+              name="ProjectDetails"
+              placeholder="Project Details *"
               rows="4"
+              required
               className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
             ></textarea>
 
             {/* Job Application */}
-            <select className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500">
-              <option>Job Application</option>
+            <select
+              name="JobApplication"
+              required
+              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
+            >
+              <option value="">Job Application *</option>
               <option>Developer</option>
               <option>Designer</option>
               <option>Manager</option>
@@ -137,15 +170,6 @@ const GetStartedSection = () => {
 
         {/* Right Side */}
         <div className="flex flex-col items-center">
-          {/* Image */}
-          <div className="w-64 h-64 rounded-full border-8 border-teal-500 overflow-hidden mb-8">
-            <img
-              src="/your-image.jpg"
-              alt="Profile"
-              className="w-full h-full object-cover"
-            />
-          </div>
-
           {/* Cards */}
           <div className="w-full grid grid-cols-1 gap-6">
             {/* Global Presence */}
@@ -155,9 +179,6 @@ const GetStartedSection = () => {
               <p className="text-gray-600 mb-4">
                 We operate worldwide, delivering solutions across all regions.
               </p>
-              {/* <button className="text-teal-600 font-semibold">
-                Learn More →
-              </button> */}
             </div>
 
             {/* Global Leaders */}
@@ -167,9 +188,6 @@ const GetStartedSection = () => {
               <p className="text-gray-600 mb-4">
                 Our leadership team has decades of combined experience.
               </p>
-              {/* <button className="text-teal-600 font-semibold">
-                Learn More →
-              </button> */}
             </div>
           </div>
         </div>

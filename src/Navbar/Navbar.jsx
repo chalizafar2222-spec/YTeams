@@ -449,13 +449,12 @@ const Navbar = () => {
           ))}
 
           <div className="mt-4 flex flex-col gap-3">
-            <button className="bg-teal-500 px-4 py-2 rounded-full font-semibold hover:bg-teal-400">
+            <Link to="/open-position" className="bg-teal-500 px-4 py-2 rounded-full font-semibold hover:bg-teal-400">
               Explore Careers
-            </button>
-            <button className="border border-teal-500 px-4 py-2 rounded-full font-semibold hover:bg-teal-500 hover:text-black">
+            </Link>
+            <Link to="/calendar" className="border border-teal-500 px-4 py-2 rounded-full font-semibold hover:bg-teal-500 hover:text-black">
               Let's Talk Business
-            </button>
-            <button className="hover:text-teal-400">Global</button>
+            </Link>
           </div>
         </div>
       )}
