@@ -1,50 +1,59 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import finance from "../../Assets/finance.jpg"
+import supply from "../../Assets/supply.jpg"
+import hr from "../../Assets/hr.jpg"
+import project from "../../Assets/project.jpg"
+import cust from "../../Assets/cust.jpg"
+import busin from "../../Assets/busin.jpg"
+import intv from "../../Assets/intv.jpg"
+import secure from "../../Assets/secure.jpg"
+import micro from "../../Assets/micro.jpg"
 
 const services = [
   {
     title: "Finance Management",
-    img: "/Assets/erp-finance.jpg",
+    img: finance,
     desc: "Streamline financial processes, gain insights, and improve decision-making.",
   },
   {
     title: "Supply Chain Optimization",
-    img: "/Assets/erp-supply.jpg",
+    img: supply,
     desc: "Enhance visibility and efficiency across your supply chain operations.",
   },
   {
     title: "Human Resources",
-    img: "/Assets/erp-hr.jpg",
+    img: hr,
     desc: "Empower your workforce with modern HR management tools.",
   },
   {
     title: "Project Management",
-    img: "/Assets/erp-project.jpg",
+    img: project,
     desc: "Plan, execute, and track projects efficiently with integrated ERP tools.",
   },
   {
     title: "Sales & Customer Service",
-    img: "/Assets/erp-sales.jpg",
+    img: cust,
     desc: "Boost customer satisfaction with streamlined sales and service processes.",
   },
   {
     title: "Business Intelligence",
-    img: "/Assets/erp-bi.jpg",
+    img: busin,
     desc: "Leverage advanced reporting and analytics for smarter decisions.",
   },
   {
     title: "Inventory Management",
-    img: "/Assets/erp-inventory.jpg",
+    img: intv,
     desc: "Maintain real-time stock visibility and optimize warehouse operations.",
   },
   {
     title: "Compliance & Security",
-    img: "/Assets/erp-security.jpg",
+    img: secure,
     desc: "Ensure regulatory compliance with strong security and audit features.",
   },
   {
     title: "Integration with Microsoft 365",
-    img: "/Assets/erp-integration.jpg",
+    img: micro,
     desc: "Seamlessly connect with Office 365, Power BI, and Azure for maximum value.",
   },
 ];

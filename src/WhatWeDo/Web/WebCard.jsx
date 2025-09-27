@@ -2,6 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import custom from "../../Assets/custom.jpeg"
 import cusecom from "../../Assets/cusecom.jpeg"
+import front from "../../Assets/front.jpg"
+import back from "../../Assets/back.jpg"
+import full from "../../Assets/full.jpg"
+import cms from "../../Assets/crm.jpg"
+import api from "../../Assets/api.jpg"
+import web from "../../Assets/web.jpg"
+import main from "../../Assets/main.jpg"
 
 const services = [
   {
@@ -16,37 +23,37 @@ const services = [
   },
   {
     title: "Frontend Development",
-    img: "/Assets/frontend.jpg",
+    img: front,
     desc: "Modern, responsive, and interactive UI with React, Vue, or Angular.",
   },
   {
     title: "Backend Development",
-    img: "/Assets/backend.jpg",
+    img: back,
     desc: "Scalable server-side solutions using Node.js, Express, or Django.",
   },
   {
     title: "Full Stack Development",
-    img: "/Assets/fullstack.jpg",
+    img: full,
     desc: "Complete end-to-end web solutions with frontend and backend integration.",
   },
   {
     title: "CMS Development",
-    img: "/Assets/cms.jpg",
+    img: cms,
     desc: "Easily manage your content with WordPress, Strapi, or custom CMS.",
   },
   {
     title: "API Development & Integration",
-    img: "/Assets/api.jpg",
+    img: api,
     desc: "Secure RESTful and GraphQL APIs for seamless app integrations.",
   },
   {
     title: "Web App Development",
-    img: "/Assets/webapp.jpg",
+    img: web,
     desc: "Powerful and scalable progressive web applications for all industries.",
   },
   {
     title: "Maintenance & Support",
-    img: "/Assets/support.jpg",
+    img: main,
     desc: "Ongoing updates, bug fixes, and technical support for your website.",
   },
 ];

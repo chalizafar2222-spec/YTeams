@@ -213,7 +213,6 @@ const Footer = () => {
               <li><Link to="/d365-erp" className="hover:text-[#77c8e1]">D365 ERP</Link></li>
               <li><Link to="/d365-crm" className="hover:text-[#77c8e1]">D365 CRM</Link></li>
               <li><Link to="/power-apps" className="hover:text-[#77c8e1]">Power Apps</Link></li>
-              <li><Link to="/metaverse" className="hover:text-[#77c8e1]">Metaverse</Link></li>
             </ul>
           </div>
 
@@ -264,7 +263,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center text-xs">
           <p>
-            Privacy Policy | Terms & Condition © 2025 All rights reserved{" "}
+            Privacy Policy | Terms & Condition © 2018-2025 All rights reserved{" "}
             <a href="" className="text-[#77c8e1]">YTeams</a>
           </p>
           <div className="flex space-x-6 mt-3 md:mt-0">

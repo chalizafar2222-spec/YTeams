@@ -1,50 +1,59 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import custom from "../../../Assets/customapp.jpg"
+import api from "../../../Assets/api.jpg"
+import data from "../../../Assets/data.jpg"
+import aii from "../../../Assets/aii.jpg"
+import mobile from "../../../Assets/mobile.jpg"
+import collab from "../../../Assets/collab.jpg"
+import citi from "../../../Assets/citi.jpg"
+import scale from "../../../Assets/scale.jpg"
+import anay from "../../../Assets/anay.jpg"
 
 const services = [
   {
     title: "Custom App Development",
-    img: "/Assets/powerapps-custom.jpg",
+    img: custom,
     desc: "Build tailored apps quickly with low-code tools to solve unique business challenges.",
   },
   {
     title: "Process Automation",
-    img: "/Assets/powerapps-automation.jpg",
+    img: api,
     desc: "Automate repetitive tasks and workflows with seamless Power Automate integration.",
   },
   {
     title: "Data Integration",
-    img: "/Assets/powerapps-data.jpg",
+    img: data,
     desc: "Connect to Microsoft 365, Dynamics 365, and third-party data sources with ease.",
   },
   {
     title: "AI-Powered Apps",
-    img: "/Assets/powerapps-ai.jpg",
+    img: aii,
     desc: "Leverage AI Builder to add intelligence and predictive insights to your apps.",
   },
   {
     title: "Mobile & Web Ready",
-    img: "/Assets/powerapps-mobile.jpg",
+    img: mobile,
     desc: "Deploy apps across devices with responsive designs for mobile, tablet, and web.",
   },
   {
     title: "Collaboration Tools",
-    img: "/Assets/powerapps-collaboration.jpg",
+    img: collab,
     desc: "Integrate with Teams and Office 365 for a connected and collaborative experience.",
   },
   {
     title: "Citizen Development",
-    img: "/Assets/powerapps-citizen.jpg",
+    img: citi,
     desc: "Empower employees to create solutions without deep coding knowledge.",
   },
   {
     title: "Scalable Solutions",
-    img: "/Assets/powerapps-scalable.jpg",
+    img: scale,
     desc: "Build secure, enterprise-ready apps that grow with your business needs.",
   },
   {
     title: "Analytics & Insights",
-    img: "/Assets/powerapps-analytics.jpg",
+    img: anay,
     desc: "Use Power BI integration for real-time analytics and data-driven decisions.",
   },
 ];

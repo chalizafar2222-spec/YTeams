@@ -237,9 +237,9 @@ const Navbar = () => {
             { name: "D365 CRM", path: "/d365-crm" },
             { name: "Power Apps", path: "/power-apps" },
           ],
-          "Emerging Technologies": [
-            { name: "Metaverse", path: "/metaverse" },
-          ],
+          // "Emerging Technologies": [
+          //   { name: "Metaverse", path: "/metaverse" },
+          // ],
         },
       },
     },

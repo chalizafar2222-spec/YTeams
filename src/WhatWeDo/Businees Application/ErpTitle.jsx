@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import erp from "../../Assets/erp.jpg"
 
 const ErpTitle = () => {
   return (
     <section
       className="relative w-full h-[600px] bg-center bg-cover"
       style={{
-        backgroundImage: "url('/Assets/erp-hero.jpg')", // change path to your ERP banner image
+        backgroundImage: `url(${erp})`, // change path to your ERP banner image
       }}
     >
       {/* Dark overlay */}

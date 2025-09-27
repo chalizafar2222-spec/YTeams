@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import power from "../../../Assets/powerr.jpg"
 
 const PowerTitle = () => {
   return (
     <section
       className="relative w-full h-[600px] bg-center bg-cover"
       style={{
-        backgroundImage: "url('/Assets/powerapps-hero.jpg')", // update with your Power Apps banner image path
+        backgroundImage: `url(${power})`, // update with your Power Apps banner image path
       }}
     >
       {/* Dark overlay */}

@@ -2,6 +2,12 @@ import React, { useRef } from "react";
 import user from "../../Assets/user.jpeg"
 import wire from "../../Assets/wireframing.jpeg"
 import ui from "../../Assets/uidesign.jpeg"
+import strat from "../../Assets/strat.jpg"
+import intern from "../../Assets/intern.jpg"
+import use from "../../Assets/use.jpg"
+import resp from "../../Assets/resp.jpg"
+import opt from "../../Assets/opt.jpg"
+import brand from "../../Assets/brand.jpg"
 import { Link } from "react-router-dom";
 
 const services = [
@@ -22,32 +28,32 @@ const services = [
   },
   {
     title: "UX Strategy",
-    img: "/Assets/ux-strategy.jpg",
+    img: strat,
     desc: "Define clear goals and create seamless user experiences from start to finish.",
   },
   {
     title: "Interaction Design",
-    img: "/Assets/interaction-design.jpg",
+    img: intern,
     desc: "Enhance engagement through smooth animations and micro-interactions.",
   },
   {
     title: "Usability Testing",
-    img: "/Assets/usability-testing.jpg",
+    img: use,
     desc: "Ensure flawless user journeys with in-depth usability evaluations.",
   },
   {
     title: "Responsive Design",
-    img: "/Assets/responsive-design.jpg",
+    img: resp,
     desc: "Design interfaces that look perfect on all devices and screen sizes.",
   },
   {
     title: "Accessibility Optimization",
-    img: "/Assets/accessibility.jpg",
+    img: opt,
     desc: "Make your product inclusive and accessible to all users.",
   },
   {
     title: "Brand Integration",
-    img: "/Assets/brand-integration.jpg",
+    img: brand,
     desc: "Seamlessly merge brand identity into every aspect of the design.",
   },
 ];

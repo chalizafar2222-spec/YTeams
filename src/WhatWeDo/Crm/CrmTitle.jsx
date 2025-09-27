@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import crm from "../../Assets/crrm.jpg"
 
 
 const CrmTitle = () => {
@@ -7,7 +8,7 @@ const CrmTitle = () => {
     <section
       className="relative w-full h-[600px] bg-center bg-cover"
       style={{
-        backgroundImage: "url('/Assets/crm-hero.jpg')", // change path to your CRM banner image
+        backgroundImage: `url(${crm})`, // change path to your CRM banner image
       }}
     >
       {/* Dark overlay */}

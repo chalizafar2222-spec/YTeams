@@ -1,50 +1,59 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import sales from "../../Assets/sales.jpg"
+import cust from "../../Assets/cust.jpg"
+import market from "../../Assets/market.jpg"
+import fie from "../../Assets/fie.jpg"
+import custom from "../../Assets/custom.jpg"
+import collab from "../../Assets/collab.jpg"
+import cas from "../../Assets/cas.jpg"
+import aii from "../../Assets/aii.jpg"
+import micro from "../../Assets/micro.jpg"
 
 const services = [
   {
     title: "Sales Automation",
-    img: "/Assets/crm-sales.jpg",
+    img: sales,
     desc: "Boost revenue with automated sales processes, forecasting, and pipeline management.",
   },
   {
     title: "Customer Service",
-    img: "/Assets/crm-service.jpg",
+    img: cust,
     desc: "Deliver exceptional customer support with omnichannel service tools.",
   },
   {
     title: "Marketing Campaigns",
-    img: "/Assets/crm-marketing.jpg",
+    img: market,
     desc: "Run targeted campaigns with AI-driven insights to engage the right audience.",
   },
   {
     title: "Field Service",
-    img: "/Assets/crm-field.jpg",
+    img: fie,
     desc: "Optimize field operations with intelligent scheduling and mobile support.",
   },
   {
     title: "Customer Insights",
-    img: "/Assets/crm-insights.jpg",
+    img: custom,
     desc: "Gain a 360° view of your customers to deliver personalized experiences.",
   },
   {
     title: "Collaboration Tools",
-    img: "/Assets/crm-collaboration.jpg",
+    img: collab,
     desc: "Enhance teamwork by integrating CRM with Teams, Office 365, and Power Platform.",
   },
   {
     title: "Case Management",
-    img: "/Assets/crm-case.jpg",
+    img: cas,
     desc: "Track, assign, and resolve customer cases faster with workflow automation.",
   },
   {
     title: "AI & Analytics",
-    img: "/Assets/crm-ai.jpg",
+    img: aii,
     desc: "Leverage predictive AI and advanced analytics for smarter decisions.",
   },
   {
     title: "Integration with Microsoft 365",
-    img: "/Assets/crm-integration.jpg",
+    img: micro,
     desc: "Seamlessly connect CRM with Outlook, Power BI, and Azure ecosystem.",
   },
 ];
