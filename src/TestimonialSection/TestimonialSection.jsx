@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import img1 from "../Assets/allan.avif";
 import img2 from "../Assets/bell.avif";
-import img3 from "../Assets/excel.avif";
+import img3 from "../Assets/studentpro.png";
 import img4 from "../Assets/HSK.avif";
 import img5 from "../Assets/insta.avif";
 import img6 from "../Assets/mazito.jpg";
@@ -28,8 +28,8 @@ const testimonials = [
         id: 3,
         logo: img3,
         text: "Their commitment to detail and delivering a reliable system for our students has been incredible. We now have a platform that truly supports our educational goals.",
-        name: "Excelencia Education Consultancy",
-        role: "Managing Director, Excelencia",
+        name: "StudentPro Consultancy",
+        role: "Managing Director, StudentPro",
     },
     {
         id: 4,

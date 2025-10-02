@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../../Assets/aboutuss.jpg"
 
 const AboutTitle = () => {
   return (
     <section
       className="relative w-full h-[600px] bg-center bg-cover"
       style={{
-        backgroundImage: "url('/Assets/about-hero.jpg')", // change path to your About Us banner image
+        backgroundImage: `url(${img})`, // change path to your About Us banner image
       }}
     >
       {/* Dark overlay */}

@@ -57,10 +57,10 @@ const ContactVideoSection = () => {
             </h2>
 
             <div className="mt-4 space-y-3 text-gray-700 text-sm sm:text-base">
-              <p><strong>📍 Address:</strong> 123 Main Street, Faisalabad, Pakistan</p>
-              <p><strong>📞 Phone:</strong> +92 300 1234567</p>
-              <p><strong>📧 Email:</strong> contact@yteams.com</p>
-              <p><strong>🌐 Website:</strong> www.yteams.com</p>
+              <p><strong>📍 Address:</strong> 152/2,2nd Floor,G Block,Dha Phase 1,Lahore,54000</p>
+              <p><strong>📞 Phone:</strong> +92 308 1122334</p>
+              <p><strong>📧 Email:</strong> ali.zafar@yteams.co</p>
+              <p><strong>🌐 Website:</strong> www.yteams.co</p>
             </div>
 
             <button className="mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white rounded-full inline-block text-sm sm:text-base">

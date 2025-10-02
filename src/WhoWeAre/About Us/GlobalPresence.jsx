@@ -1,6 +1,6 @@
 import React from "react";
-import pakistan from "../../Assets/pak.jpg";
-import uk from "../../Assets/uk.jpg";
+import pakistan from "../../Assets/pk.jpg";
+import uk from "../../Assets/ukk.jpg";
 
 const countries = [
   { img: pakistan, name: "Pakistan" },
@@ -27,7 +27,7 @@ const GlobalPresence = () => {
               <img
                 src={country.img}
                 alt={country.name}
-                className="w-full h-64 object-center transform transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-64 object-cover object-top transform transition-transform duration-500 group-hover:scale-110"
               />
             </div>
             <p className="mt-3 text-base font-medium">{country.name}</p>

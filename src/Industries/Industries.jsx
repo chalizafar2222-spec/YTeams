@@ -11,7 +11,6 @@ const industries = [
   { name: "Retail & CPG", icon: "🏬" },
   { name: "Startups", icon: "🚀" },
   { name: "Banking & Fintech", icon: "💳" },
-  { name: "Gaming", icon: "🎮" },
 ];
 
 export default function IndustriesSection() {
