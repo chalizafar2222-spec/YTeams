@@ -53,18 +53,18 @@ function AchievementsSection() {
           </h3>
           <p className="text-gray-600 mt-2">Countries Supported</p>
         </div>
-        <div className="stat">
+        {/* <div className="stat">
           <h3 className="text-2xl md:text-3xl font-bold text-[#13b8a6]">
             {inView ? <CountUp start={0} end={236} duration={3} /> : 0}+
           </h3>
           <p className="text-gray-600 mt-2">Active Clients</p>
-        </div>
-        <div className="stat">
+        </div> */}
+        {/* <div className="stat">
           <h3 className="text-2xl md:text-3xl font-bold text-[#13b8a6]">
             {inView ? <CountUp start={0} end={15} duration={3} /> : 0}+
           </h3>
           <p className="text-gray-600 mt-2">Years of Enablement Experience</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
