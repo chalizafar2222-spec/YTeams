@@ -345,20 +345,9 @@ const teamMembers = [
       linkedin: "https://linkedin.com/in/hamzafarooq",
     },
   },
+
   {
     id: 14,
-    name: "Aimen Ikram",
-    role: "Business Developer",
-    category: "Management",
-    img: team10,
-    socials: {
-      github: "https://github.com/aimenikram",
-      twitter: "https://twitter.com/aimenikram",
-      linkedin: "https://linkedin.com/in/aimenikram",
-    },
-  },
-  {
-    id: 15,
     name: "Noor Zainab",
     role: "Business Developer",
     category: "Management",

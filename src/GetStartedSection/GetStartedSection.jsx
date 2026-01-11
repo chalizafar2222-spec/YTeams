@@ -1,211 +1,63 @@
 import React from "react";
-import { FaGlobe, FaUsers } from "react-icons/fa";
+import { IoMdClock, IoMdMail } from "react-icons/io";
+import logo from "../Assets/IMG_9847.png"; // adjust path as needed
 
-const GetStartedSection = () => {
+const ContactEmailSection = () => {
   return (
-    <div className="bg-white px-6 py-16 lg:px-20 lg:py-24">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* Left Side */}
-        <div>
-          <h2 className="text-teal-600 text-3xl font-bold mb-4">
-            Ready To Get Started
-          </h2>
-          <p className="text-gray-600 mb-8">
-            Connect with us to explore how we can deliver exceptional IT
-            solutions for your needs.
-          </p>
+    <div className="relative z-10 min-h-screen py-20 px-6 sm:px-10 lg:px-20 bg-[radial-gradient(circle_at_right,_#02B4D8_0%,_#0a0a0a_60%,_black_100%)]">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start bg-[radial-gradient(circle_at_right,_#02B4D8_0%,_#0a0a0a_60%,_black_100%)] bg-opacity-95 p-10 rounded-3xl shadow-2xl">
 
-          <form
-            action="https://api.sheetmonkey.io/form/2MNbbPsEqxzgPANiZaDQp8"
-            method="post"
-            className="space-y-5"
-          >
-            {/* First & Last Name */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                name="FirstName"
-                placeholder="First Name *"
-                required
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
-              <input
-                type="text"
-                name="LastName"
-                placeholder="Last Name *"
-                required
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
+        {/* Left Section */}
+        <div className="space-y-6">
+          <img src={logo} alt="logo" className="w-10 mb-2" />
+
+          <div>
+            <h1 className="text-3xl font-bold text-[#02B4D8]">YTeams</h1>
+            <h2 className="text-4xl font-extrabold text-white mt-2 leading-snug">
+              Free Consultation<br />Start Your Project Discussion
+            </h2>
+          </div>
+
+          <div className="text-base leading-relaxed">
+            <div className="flex items-center gap-2 font-medium text-white">
+              <IoMdClock className="text-lg text-[#02B4D8]" />
+              Quick response within 24 hours
             </div>
 
-            {/* Email & Phone */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="email"
-                name="Email"
-                placeholder="Email *"
-                required
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
-              <div className="flex gap-2">
-                <select
-                  name="CountryCode"
-                  required
-                  className="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                >
-                  <option value="">Code *</option>
-                  <option>+1</option>
-                  <option>+44</option>
-                  <option>+92</option>
-                </select>
-                <input
-                  type="tel"
-                  name="Phone"
-                  placeholder="Phone Number *"
-                  required
-                  className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-                />
-              </div>
-            </div>
-
-            {/* Budget & Company Name */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                name="Budget"
-                placeholder="Budget *"
-                required
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
-              <input
-                type="text"
-                name="CompanyName"
-                placeholder="Company Name *"
-                required
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
-            </div>
-
-            {/* Company URL */}
-            <input
-              type="text"
-              name="CompanyURL"
-              placeholder="Company Domain/URL *"
-              required
-              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-            />
-
-            {/* Region */}
-            <select
-              name="Region"
-              required
-              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-            >
-              <option value="">Region *</option>
-              <option>North America</option>
-              <option>Europe</option>
-              <option>Asia</option>
-            </select>
-
-            {/* Services */}
-            <div>
-              <p className="text-gray-700 mb-2 font-medium">
-                Services Interested In *
-              </p>
-              <div className="grid grid-cols-2 gap-2">
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Web Development"/>
-                  Web Development
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Mobile Apps" />
-                  App Development
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="UI/UX Design" />
-                  UI/UX Design
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Cloud Solutions" />
-                  D365 ERP
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Cloud Solutions" />
-                  D365 CRM
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Cloud Solutions" />
-                  Power App
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" name="Services" value="Cloud Solutions" />
-                  Metaverse
-                </label>
-              </div>
-            </div>
-
-            {/* Project Details */}
-            <textarea
-              name="ProjectDetails"
-              placeholder="Project Details *"
-              rows="4"
-              required
-              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-            ></textarea>
-
-            {/* Job Application */}
-            <select
-              name="JobApplication"
-              required
-              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-teal-500"
-            >
-              <option value="">Job Application *</option>
-              <option>Developer</option>
-              <option>Designer</option>
-              <option>Manager</option>
-            </select>
-
-            {/* Captcha placeholder */}
-            <div className="bg-gray-100 border border-gray-300 rounded-md p-6 text-center text-gray-500">
-              reCAPTCHA Placeholder
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full w-full font-semibold"
-            >
-              Submit
-            </button>
-          </form>
+            <p className="mt-4 text-white">
+              Reach out to us via email to discuss your project requirements,
+              timelines, and development strategy. Our team will respond with
+              next steps and a tailored approach.
+            </p>
+          </div>
         </div>
 
-        {/* Right Side */}
-        <div className="flex flex-col items-center">
-          {/* Cards */}
-          <div className="w-full grid grid-cols-1 gap-6">
-            {/* Global Presence */}
-            <div className="border border-gray-300 rounded-lg p-6 flex flex-col items-start">
-              <FaGlobe className="text-teal-600 text-3xl mb-3" />
-              <h3 className="text-lg font-semibold mb-2">Global Presence</h3>
-              <p className="text-gray-600 mb-4">
-                We operate worldwide, delivering solutions across all regions.
-              </p>
-            </div>
+        {/* Right Section (Email CTA Card) */}
+        <div className="rounded-xl shadow-md bg-[#0f0f0f] p-10 flex flex-col items-center justify-center text-center space-y-6 border border-[#02B4D8]/30">
 
-            {/* Global Leaders */}
-            <div className="border border-gray-300 rounded-lg p-6 flex flex-col items-start">
-              <FaUsers className="text-teal-600 text-3xl mb-3" />
-              <h3 className="text-lg font-semibold mb-2">Global Leaders</h3>
-              <p className="text-gray-600 mb-4">
-                Our leadership team has decades of combined experience.
-              </p>
-            </div>
-          </div>
+          <IoMdMail className="text-6xl text-[#02B4D8]" />
+
+          <h3 className="text-2xl font-bold text-white">
+            Contact Our Operations Team
+          </h3>
+
+          <p className="text-gray-300 max-w-sm">
+            Send us an email with your project idea or requirements and our
+            operations team will get back to you promptly.
+          </p>
+
+          <a
+            href="mailto:operations@yteams.co?subject=Project Inquiry&body=Hello YTeams,%0D%0A%0D%0AI would like to discuss a project with your team.%0D%0A%0D%0AThanks,"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#02B4D8] text-black font-semibold hover:bg-[#00a0c4] transition-all"
+          >
+            <IoMdMail />
+            operations@yteams.co
+          </a>
+
         </div>
       </div>
     </div>
   );
 };
 
-export default GetStartedSection;
+export default ContactEmailSection;
