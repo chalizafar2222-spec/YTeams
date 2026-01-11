@@ -43,13 +43,13 @@ function AchievementsSection() {
       <div className="flex-1 grid grid-cols-2 gap-6 sm:gap-10 text-center">
         <div className="stat">
           <h3 className="text-2xl md:text-3xl font-bold text-[#13b8a6]">
-            {inView ? <CountUp start={0} end={3000} duration={3} /> : 0}+
+            {inView ? <CountUp start={0} end={20} duration={3} /> : 0}+
           </h3>
           <p className="text-gray-600 mt-2">Successful Projects</p>
         </div>
         <div className="stat">
           <h3 className="text-2xl md:text-3xl font-bold text-[#13b8a6]">
-            {inView ? <CountUp start={0} end={23} duration={3} /> : 0}+
+            {inView ? <CountUp start={0} end={3} duration={3} /> : 0}+
           </h3>
           <p className="text-gray-600 mt-2">Countries Supported</p>
         </div>
