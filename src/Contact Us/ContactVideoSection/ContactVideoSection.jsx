@@ -58,6 +58,9 @@ const ContactVideoSection = () => {
 
             <div className="mt-4 space-y-3 text-gray-700 text-sm sm:text-base">
               <p><strong>📍 Address:</strong>Kohenoor, Amir Plaza, Road, Kohinoor City Faisalabad, 38000, Pakistan</p>
+              <p><strong>📍 Address:</strong>152/2, 2nd Floor, G Block, DHA Phase 1, Lahore, 54000 Pakistan</p>
+          
+            
               <p><strong>📞 Phone:</strong> +92 308 1122334</p>
               <p><strong>📧 Email:</strong> operations@yteams.co</p>
               <p><strong>🌐 Website:</strong> www.yteams.co</p>

@@ -24,160 +24,27 @@ const Textbox3D = () => {
           style={{ animation: "hoverAnim 2s alternate infinite" }}
         >
           {/* Heading */}
-          <h2 className="text-3xl font-bold text-[#272343] text-center mb-6">
-            Career Application Form
-          </h2>
+   
 
-          {/* Form Start */}
-          <form
-            action="https://api.sheetmonkey.io/form/2MNbbPsEqxzgPANiZaDQp8"
-            method="POST"
-            className="space-y-6"
-          >
-            {/* Grid Layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Full Name */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Full Name*
-                </label>
-                <input
-                  type="text"
-                  name="Full Name"
-                  placeholder="Enter your full name"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none"
-                />
-              </div>
-
-              {/* Email */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Email*
-                </label>
-                <input
-                  type="email"
-                  name="Email"
-                  placeholder="Enter your email"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none"
-                />
-              </div>
-
-              {/* Phone */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Phone*
-                </label>
-                <input
-                  type="tel"
-                  name="Phone"
-                  placeholder="Enter your phone number"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none"
-                />
-              </div>
-
-              {/* Role Selection */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Applying For*
-                </label>
-                <select
-                  name="Role"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] focus:outline-none"
-                  defaultValue=""
-                >
-                  <option value="" disabled>
-                    Select a role
-                  </option>
-                  <option>Frontend Developer</option>
-                  <option>Backend Developer</option>
-                  <option>Cybersecurity Analyst</option>
-                  <option>UI/UX Designer</option>
-                </select>
-              </div>
-
-              {/* Experience */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Years of Experience*
-                </label>
-                <input
-                  type="number"
-                  name="Experience"
-                  placeholder="e.g. 2"
-                  min="0"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none"
-                />
-              </div>
-
-              {/* Portfolio */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Portfolio / LinkedIn
-                </label>
-                <input
-                  type="url"
-                  name="Portfolio"
-                  placeholder="Enter link"
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none"
-                />
-              </div>
-
-              {/* Resume Upload */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Upload Resume*
-                </label>
-                <input
-                  type="file"
-                  name="Resume"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] focus:outline-none file:mr-3 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-[#bae8e8] file:text-[#272343] hover:file:bg-[#9ccece]"
-                />
-              </div>
-
-              {/* Availability */}
-              <div>
-                <label className="uppercase font-bold text-[#272343] mb-1 block">
-                  Availability*
-                </label>
-                <select
-                  name="Availability"
-                  required
-                  className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] focus:outline-none"
-                >
-                  <option>Full-time</option>
-                  <option>Part-time</option>
-                  <option>Internship</option>
-                </select>
-              </div>
-            </div>
-
-            {/* Cover Letter */}
             <div>
-              <label className="uppercase font-bold text-[#272343] mb-1 block">
-                Cover Letter / Message
-              </label>
-              <textarea
-                name="Cover Letter"
-                placeholder="Write a short cover letter..."
-                className="w-full border-none bg-white px-3 py-2 rounded shadow text-[#272343] placeholder:text-gray-500 focus:outline-none resize-none"
-                rows="4"
-              ></textarea>
-            </div>
+  <h2 className="text-[#272343] text-3xl font-bold mb-4">
+    Join <span className="text-[#2dd4bf]">YTEAMS</span>
+  </h2>
 
-            {/* Submit */}
-            <button
-              type="submit"
-              className="bg-[#bae8e8] hover:bg-[#9ccece] text-[#272343] font-bold px-6 py-3 rounded shadow-md transition w-full"
-            >
-              Apply Now
-            </button>
-          </form>
+  <p className="text-gray-700 mb-4">
+    Be part of an innovative global community where talent meets opportunity.
+  </p>
+
+  <p className="text-gray-800 font-medium">
+    Send your resume to
+    <a
+      href="mailto:hr@yteams.co"
+      className="ml-1 text-[#2dd4bf] font-semibold hover:underline"
+    >
+      hr@yteams.co
+    </a>
+  </p>
+</div>
         </div>
       </div>
     </div>
